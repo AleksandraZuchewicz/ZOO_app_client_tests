@@ -18,6 +18,8 @@
   "homepage": "https://github.com/AleksandraZuchewicz/ZOO_app_client_tests#readme",
   "dependencies": {
     "assert": "^1.4.1",
-    "selenium-webdriver": "^4.0.0-alpha.1"
+    "axios": "^0.18.0",
+    "selenium-webdriver": "^4.0.0-alpha.1",
+    "terminate": "^2.1.2"
   }
 }
