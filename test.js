@@ -43,18 +43,6 @@ var assert = require("assert");
       let foodRightButton = rightButtons.pop();
       await foodRightButton.click();
     }
-    /*
-    await kochamCie.sendKeys("Kocham Cie");
-    await driver.sleep(1000);
-    await driver
-      .findElement(
-        By.className(
-          "src-tts left-positioned ttsbutton jfk-button-flat source-or-target-footer-button jfk-button"
-        )
-      )
-      .click();
-    await driver.sleep(5000);
-    */
   } finally {
     await driver.quit();
   }
